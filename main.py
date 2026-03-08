@@ -179,10 +179,301 @@ hello
 # # print(str.find("  "))
 # print(str.replace("  "," "))
 
-friends=["Rohan","Akash","Dhanush"]
-print(friends[0])
-friends[0]="shailesh"
-print(friends)
+# friends=["Rohan","Akash","Dhanush"]
+# print(friends[0])
+# friends[0]="shailesh"
+# print(friends)
+
+
+#tupple
+# a=(1,2,3,4,5,1,1,1,1,1,1,1,1,6)
+# print(a.count(1))
+
+# b=(1,)
+# print(type(b))
+
+# fruits=[]
+
+# for i in range(0,7):
+#     n=input("Enter fruits")
+#     fruits.append(n)
+
+# print(fruits)
+
+# marks=[]
+
+# for i in range(0,6):
+#     n=int(input("Enter marks "))
+#     marks.append(n)
+# print(marks)
+# marks.sort()
+# print(marks)
+
+# num=[1,2,3]
+# sum=0
+# for i in num:
+#     sum=sum+i
+# print(sum)
+
+# a=(7,0,8,0,0,0,9)
+# b=a.count(0)
+# print(b)
+
+# mark={
+#     "Dhanush":100,
+#     "shubam":75,
+#     "Rohan":54
+# }
+# mark["Dhanush"]=99
+
+# print(mark["Dhanush"])
+# print(type(mark))
+
+# print(mark.items())
+
+# s=set() #empty sets
+# s.add(10)
+# print(s)
+
+# translate={
+#     "namaste":"Hello",
+#     "koni chiwa":"How are you"
+# }
+
+# search=input("Enter the thing that u want to search from dictonary ")
+
+# print(translate.get(search))
+
+# s=set()
+# for i in range(0,8):
+#     n=int(input("Enter the number: "))
+#     s.add(n)
+# print(s)
+
+# s={8,'8'}
+# print(s,type(s))
+
+# d={}
+# for i in range(0,4):
+#     name=input("Enter your name ")
+#     language=input("Enter your favourite programming langauge ")
+#     d.update({name:language})
+# print(d)
+
+# s={8,7,12,"Harry"}
+# s.remove(7)
+# print(s)
+
+# age=int(input("Enter your age: "))
+# if n%2==0:
+#     print("even")
+# else:
+#     print("odd")
+
+# if(age>=18):
+#     print("You are eligible to vote")
+# elif(age<0):
+#     print("Please provide valid age")
+# else:
+#     print("You are not eligible to vote")
+
+
+# a=int(input("Enter a number: "))
+# b=int(input("Enter a number: "))
+# c=int(input("Enter a number: "))
+# d=int(input("Enter a number: "))
+
+# if(a>b and a>c and a>d):
+#     print(f"{a} is greater")
+# elif(b>a and b>c and b>d ):
+#     print(f"{b} is greater")
+# elif(c>a and c>b and c>d ):
+#     print(f"{b} is greater")
+# else:
+#     print(f"{d} is greater")
+
+# a=int(input("Enter marks: "))
+# b=int(input("Enter marks: "))
+# c=int(input("Enter marks: "))
+
+
+
+# total_percentage=((a+b+c)/300)*100
+# print(int(total_percentage))
+
+# if(total_percentage>=40 and a>=33 and b>=33 and c>=33):
+#     print("You are pass")
+# else:
+#     print("Fail")
+
+# p1="Make a lot of money"
+# p2="buy now"
+# p3="subscribe this"
+# p4="click this"
+
+# message=input("Enter message")
+
+# if(p1 in message or p2 in message or p3 in message or p4 in message):
+#     print("Spam")
+# else:
+#     print("hello world")
+
+
+# for i in range(1,101):
+#     print(i)
+
+# i=1
+# while(i<=5):
+#     print(i)
+#     i=i+1
+
+# list=['Dhanush','Shailesh','Nithin',1,3,4,5,6]
+
+# i=0
+# while i<len(list):
+#     print(list[i])
+#     i=i+1
+
+# l1=[1,2,3]
+# l2=[4]
+# print(l1+l2)
+
+# for i in range(0,100):
+#     if i==3:
+#         continue;
+#     print(i)
+
+# for i in range(0,100):
+#     if i==3:
+#         break;
+#     print(i)
+
+# for i in range(0,11):
+#     if i==3:
+#         pass;
+#     print(i)
+
+# n=int(input("Enter a number : "))
+# for i in range(1,11):
+#     print(f"{n} x {i} = {n*i}")
+
+# l=["Harry","Soham","Sachin","Rahul"]
+
+# for name in l:
+#     if(name.startswith("S")):
+#         print(f"Hello {name}")
+
+# n=int(input("Enter a number : "))
+# i=0
+# while(i<=10):
+#      print(f"{n} x {i} = {n*i}")
+#      i+=1
+
+# n=int(input("Enter a number: "))
+
+# for i in range(2,n):
+#     if(n%i==0):
+#         print(f"{n} Not a prime")
+#         break;
+# else:
+#     print(f"{n}  a prime")
+
+# sum=0
+# i=1
+# while(i<=10):
+#     sum+=i
+#     i+=1
+# print(sum)
+
+# n=int(input("Enter a number: "))
+# fact=1
+# for i in range(1,n+1):
+#     fact*=i
+# print(fact)
+
+# n=3
+# for i in range(0,n):
+#     print(" "*(n-i-1) + "*"*(2*i+1))
+
+# n=3
+# for i in range(1,n+1):
+#     print("*"*i,end="")
+#     print("")
+# n=5
+# for i in range(0,n):
+#     for j in range(0,n):
+#         if(i==0 or j==0 or i==n-1 or j==n-1):
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print("")
+
+# n=5
+# for i in range(10,0,-1):
+#     print(f"{n}x{i}={n*i}")
+
+
+# def function(name="Virat kohli"):
+#     print("Good Day! ", name)
+
+
+# function()
+
+
+# def factorial(n):
+
+#     if(n<2):
+#         return 1
+#     else:
+#         return n*factorial(n-1)
+    
+# a=factorial(5)
+# print(a)
+
+
+# def greatest(a,b,c):
+#     if(a>b and a>c):
+#         print(f"{a} is greater")
+#     elif(b>a and b>c):
+#         print(f"{b} is greater")
+#     else:
+#         print(f"{c} is greater")
+
+# greatest(1,2,3)
+
+# def celToFar(cel):
+#     return (cel*1.8)+32
+
+# print(celToFar(66))
+
+# def naturalSum(n):
+#     if n==0:
+#         return 0
+#     return n+naturalSum(n-1)
+
+# print(naturalSum(10))
+# n=3
+# for i in range(0,n):
+#     print("*"* (n-i))
+
+
+
+
+
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
 
 
 
