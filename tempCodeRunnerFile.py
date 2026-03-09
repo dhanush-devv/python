@@ -1,1 +1,1 @@
-n-i
+content.getInfo()

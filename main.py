@@ -456,6 +456,71 @@ hello
 # for i in range(0,n):
 #     print("*"* (n-i))
 
+# f=open("file.txt","r")
+# data=f.read()
+# print(data)
+# f.close()
+
+# st="Hey"
+# f=open('file.txt','w')
+# f.write(st)
+# f.close()
+
+# with open("poem.txt",encoding="utf-8") as f:
+#     data=f.read()
+#     print(data)
+#     if("twinkle" in data):
+#         print("true")
+#     else:
+#         print("false")
+
+
+# import random
+# def game():
+#     print("You are playing the game")
+#     score=random.randint(1,62)
+
+#     with open("hiscore.txt") as f:
+#         hiscore=f.read()
+#         if(hiscore!=""):
+#             hiscore=int(hiscore)
+#         else:
+#             hiscore=0
+
+#     print(f"Your score:{score}")
+
+#     if(score>hiscore or hiscore==""):
+#         with open("hiscore.txt","w") as f:
+#             f.write(str(score))
+#     return score
+# game()
+# def generateTable(n):
+#     table=""
+#     for i in range(1,11):
+#         table+=f"{n} x {i} = {n*i}"
+
+#     with open(f"tables/table_{n}.txt","w") as f:
+#         f.write(table)
+
+
+
+
+# for i in range(2,21):
+#   generateTable(i)
+
+# with open("donkey.txt") as f:
+#     data=f.read()
+
+# newData=data.replace("Donkey","######")
+
+# with open("donkey.txt","w") as f:
+#     f.write(newData)
+
+
+
+
+
+
 
 
 
